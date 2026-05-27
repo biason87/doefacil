@@ -1,0 +1,12 @@
+{
+  "name": "DoeFácil",
+  "description": "Uma plataforma centralizada para facilitar a jornada do doador de sangue, com mapas interativos, alertas de urgência e suporte informativo.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Real-time alerts",
+    "Interactive Mapping",
+    "Smart FAQ Chatbot"
+  ]
+}

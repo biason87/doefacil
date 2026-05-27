@@ -1,0 +1,76 @@
+{
+  "entities": {
+    "UrgentAlert": {
+      "title": "Urgent Alert",
+      "description": "Information about urgent blood needs in hospitals.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "hospital": { "type": "string" },
+        "bloodType": { "type": "string" },
+        "description": { "type": "string" },
+        "level": { "type": "string" }
+      },
+      "required": ["id", "hospital", "bloodType", "description", "level"]
+    },
+    "Campaign": {
+      "title": "Campaign",
+      "description": "Details about active blood donation campaigns.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "date": { "type": "string" },
+        "image": { "type": "string" }
+      },
+      "required": ["id", "title", "description", "date", "image"]
+    },
+    "FAQ": {
+      "title": "FAQ",
+      "description": "Frequently asked questions for the guide and chat.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "question": { "type": "string" },
+        "answer": { "type": "string" },
+        "category": { "type": "string", "enum": ["chat", "guide"] }
+      },
+      "required": ["id", "question", "answer", "category"]
+    },
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Static and dynamic user data.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "bloodType": { "type": "string" },
+        "donationsCount": { "type": "number" },
+        "lastDonation": { "type": "string" },
+        "nextDonation": { "type": "string" },
+        "photo": { "type": "string" }
+      },
+      "required": ["uid", "name", "email", "bloodType", "donationsCount", "lastDonation", "nextDonation"]
+    }
+  },
+  "firestore": {
+    "urgent_alerts": {
+      "schema": "UrgentAlert",
+      "description": "Collection of urgent blood alerts."
+    },
+    "campaigns": {
+      "schema": "Campaign",
+      "description": "Collection of active campaigns."
+    },
+    "faqs": {
+      "schema": "FAQ",
+      "description": "Collection of FAQs for both chat and guide components."
+    },
+    "profiles": {
+      "schema": "UserProfile",
+      "description": "User profile data keyed by UID."
+    }
+  }
+}

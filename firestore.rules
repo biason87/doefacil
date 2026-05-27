@@ -1,0 +1,63 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Common helpers
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    // Profiles
+    match /profiles/{userId} {
+      function isValidProfile(data) {
+        return (data.name == null || (data.name is string && data.name.size() <= 100))
+            && (data.email == null || (data.email is string && data.email.size() <= 200))
+            && (data.bloodType == null || (data.bloodType is string && data.bloodType.size() <= 10))
+            && (data.donationsCount == null || data.donationsCount is number)
+            && (data.lastDonation == null || data.lastDonation is string)
+            && (data.nextDonation == null || data.nextDonation is string);
+      }
+
+      // Users can only read and write their own profile
+      allow get: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidProfile(request.resource.data);
+      allow update: if isOwner(userId) 
+                    && isValidProfile(request.resource.data)
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+                      'name', 'email', 'bloodType', 'donationsCount', 'lastDonation', 'nextDonation', 'photo', 'updatedAt'
+                    ]);
+    }
+
+    // Public collections (read-only for users, managed by admins - or for now just public read)
+    match /urgent_alerts/{alertId} {
+      allow read: if true;
+      allow create: if true; // Allow seeding from client
+      allow update, delete: if false; 
+    }
+
+    match /campaigns/{campaignId} {
+      allow read: if true;
+      allow create: if true; // Allow seeding from client
+      allow update, delete: if false;
+    }
+
+    match /faqs/{faqId} {
+      allow read: if true;
+      allow create: if true; // Allow seeding from client
+      allow update, delete: if false;
+    }
+  }
+}
