@@ -16,19 +16,19 @@ export default function UrgentAlerts() {
   const [activeCampaigns, setActiveCampaigns] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // Fallback das suas imagens caso o banco local falhe
+  // Lista de segurança (Plano B) com os caminhos corretos das suas fotos na pasta public
   const localImages = [
     "/regenerated_image_1777557623525.png",
     "/regenerated_image_1777557625124.png",
     "/regenerated_image_1777557626287.png",
-    "/regenerated_image_1777557626287.png"
+    "/doe_esperanca.png" // Sua nova foto do braço doando sangue
   ];
 
   useEffect(() => {
     async function fetchData() {
-      // Criamos um timeout de segurança: se o Firebase demorar mais de 3.5 segundos, usamos os dados locais
+      // Timeout de segurança: destrava a tela usando os dados locais se o Firebase demorar mais de 3.5 segundos
       const timeoutId = setTimeout(() => {
-        console.warn("Firebase demorou para responder. Carregando dados de segurança...");
+        console.warn("Firebase demorou para responder. Carregando dados locais...");
         setUrgentNeeds(URGENT_NEEDS || []);
         setActiveCampaigns(CAMPAIGNS || []);
         setLoading(false);
@@ -38,7 +38,6 @@ export default function UrgentAlerts() {
         const alerts = await firebaseService.getUrgentAlerts();
         const camps = await firebaseService.getCampaigns();
 
-        // Se o Firebase responder antes do tempo acabar, cancelamos o plano B e usamos o banco!
         clearTimeout(timeoutId);
 
         if (alerts && alerts.length > 0) {
@@ -155,7 +154,7 @@ export default function UrgentAlerts() {
             >
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src={campaign.image && campaign.image.startsWith("/") ? campaign.image : (localImages[idx] || localImages[2])} 
+                  src={campaign.image && campaign.image.startsWith("/") ? campaign.image : (localImages[idx] || localImages[3])} 
                   alt={campaign.title} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
