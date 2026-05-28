@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
 import { URGENT_NEEDS, CAMPAIGNS } from "../lib/constants";
 import { AlertTriangle, Calendar, ArrowRight, Share2, Hospital } from "lucide-react";
 import { firebaseService } from "../lib/firebaseService";
@@ -16,24 +16,35 @@ export default function UrgentAlerts() {
   const [activeCampaigns, setActiveCampaigns] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // Lista com as suas 3 imagens reais salvas na pasta public
+  // Fallback das suas imagens caso o banco local falhe
   const localImages = [
     "/regenerated_image_1777557623525.png",
     "/regenerated_image_1777557625124.png",
+    "/regenerated_image_1777557626287.png",
     "/regenerated_image_1777557626287.png"
   ];
 
   useEffect(() => {
     async function fetchData() {
+      // Criamos um timeout de segurança: se o Firebase demorar mais de 3.5 segundos, usamos os dados locais
+      const timeoutId = setTimeout(() => {
+        console.warn("Firebase demorou para responder. Carregando dados de segurança...");
+        setUrgentNeeds(URGENT_NEEDS || []);
+        setActiveCampaigns(CAMPAIGNS || []);
+        setLoading(false);
+      }, 3500);
+
       try {
         const alerts = await firebaseService.getUrgentAlerts();
         const camps = await firebaseService.getCampaigns();
+
+        // Se o Firebase responder antes do tempo acabar, cancelamos o plano B e usamos o banco!
+        clearTimeout(timeoutId);
 
         if (alerts && alerts.length > 0) {
           setUrgentNeeds(alerts);
         } else {
           setUrgentNeeds(URGENT_NEEDS);
-          // Seed initial data
           URGENT_NEEDS.forEach(async (need) => {
             await addDoc(collection(db, 'urgent_alerts'), need);
           });
@@ -43,17 +54,17 @@ export default function UrgentAlerts() {
           setActiveCampaigns(camps);
         } else {
           setActiveCampaigns(CAMPAIGNS);
-          // Seed initial data
           CAMPAIGNS.forEach(async (camp) => {
             await addDoc(collection(db, 'campaigns'), camp);
           });
         }
       } catch (error) {
-        console.error("Error fetching data", error);
-        setUrgentNeeds(URGENT_NEEDS);
-        setActiveCampaigns(CAMPAIGNS);
+        console.error("Erro ao buscar dados do Firebase", error);
+        clearTimeout(timeoutId);
+        setUrgentNeeds(URGENT_NEEDS || []);
+        setActiveCampaigns(CAMPAIGNS || []);
       } finally {
-        loading(false);
+        setLoading(false);
       }
     }
     fetchData();
@@ -85,7 +96,7 @@ export default function UrgentAlerts() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.1 }}
-            key={need.id}
+            key={need.id || idx}
             className="bg-white border-2 border-red-50 rounded-3xl p-5 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden"
           >
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
@@ -139,12 +150,12 @@ export default function UrgentAlerts() {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              key={campaign.id}
+              key={campaign.id || idx}
               className="bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm group cursor-pointer"
             >
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src={localImages[idx] || localImages[2]} 
+                  src={campaign.image && campaign.image.startsWith("/") ? campaign.image : (localImages[idx] || localImages[2])} 
                   alt={campaign.title} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
