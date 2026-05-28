@@ -16,6 +16,13 @@ export default function UrgentAlerts() {
   const [activeCampaigns, setActiveCampaigns] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
+  // Lista com as suas 3 imagens reais salvas na pasta public
+  const localImages = [
+    "/regenerated_image_1777557623525.png",
+    "/regenerated_image_1777557625124.png",
+    "/regenerated_image_1777557626287.png"
+  ];
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -46,7 +53,7 @@ export default function UrgentAlerts() {
         setUrgentNeeds(URGENT_NEEDS);
         setActiveCampaigns(CAMPAIGNS);
       } finally {
-        setLoading(false);
+        loading(false);
       }
     }
     fetchData();
@@ -137,7 +144,7 @@ export default function UrgentAlerts() {
             >
               <div className="h-48 overflow-hidden relative">
                 <img 
-                  src={campaign.image} 
+                  src={localImages[idx] || localImages[2]} 
                   alt={campaign.title} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
                   referrerPolicy="no-referrer"
