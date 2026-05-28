@@ -56,7 +56,7 @@ export default function Home({ onNavigate }: HomeProps) {
           >
             <div className="relative">
               <img 
-                src="/regenerated_image_1777554981194.png" 
+                src="/images/regenerated_image_1777554981194.png" 
                 alt="Donation Hero" 
                 className="rounded-[40px] shadow-2xl h-[500px] w-full object-cover"
                 referrerPolicy="no-referrer"
