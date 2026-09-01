@@ -139,11 +139,15 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 ---
 
-## 📄 Documentação Completa
+## 📄 Documentação Oficial do Projeto
 
-Para consultar o embasamento teórico, metodologia detalhada, resultados das pesquisas de campo e validações técnicas do projeto, acesse o relatório oficial em PDF:
+Para consultar o planejamento inicial, o embasamento teórico, a metodologia de extensão e as validações técnicas do **DoeFácil**, acesse os documentos oficiais do projeto em PDF:
 
-📥 **[Visualizar Relatório Acadêmico do Projeto DoeFácil (PDF)](docs/Relatorio-Final-DoeFacil.pdf)**
+* 📋 **[Termo de Abertura do Projeto — TAP (PDF)](docs/TAP-DoeFacil.pdf)**  
+  *Contém a justificativa, objetivos, premissas, riscos, alinhamento com os ODS da ONU e mapa de partes interessadas.*
+
+* 📑 **[Relatório Acadêmico & Técnico Completo (PDF)](docs/Relatorio-Final-DoeFacil.pdf)**  
+  *Contém o embasamento teórico, resultados da pesquisa de campo (74 respondentes), diagrama de modelagem do sistema e fluxo de prototipagem.*
 
 ---
 
