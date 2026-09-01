@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  ─── ･ ｡ﾟ☆: *.☽ .* :☆ﾟ. ───
+  ───  ───
 </p>
 
 ## 📌 Visão Geral & Proposta de Valor
