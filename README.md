@@ -13,7 +13,7 @@
 
 ## 📌 Visão Geral & Dores Atacadas
 
-No Brasil, **apenas 1,4% da população é doadora regular de sangue**, mantendo os hemocentros constantemente à beira do desabastecimento[cite: 1, 2]. Através de pesquisas de campo com **74 respondentes** e do levantamento de dados clínicos junto ao parceiro **Colsan (Sorocaba)**, identificou-se que **48% dos potenciais doadores deixam de doar por desinformação, medo do procedimento ou entraves logísticos**.
+No Brasil, **apenas 1,4% da população é doadora regular de sangue**, mantendo os hemocentros constantemente à beira do desabastecimento. Através de pesquisas de campo com **74 respondentes** e do levantamento de dados clínicos junto ao parceiro **Colsan (Sorocaba)**, identificou-se que **48% dos potenciais doadores deixam de doar por desinformação, medo do procedimento ou entraves logísticos**.
 
 ### 🎯 Principais Dores Eliminadas pelo DoeFácil:
 * **Falta de Informação e Mitos:** O medo do processo e a dúvida sobre requisitos básicos (peso, idade, cirurgias recentes) afastam voluntários.
