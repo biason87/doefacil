@@ -36,7 +36,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 </p>
 
 > ** Diagrama de Caso de Uso do Sistema DoeFácil**  
-> **Explicação:** Este diagrama ilustra as funcionalidades do sistema sob a perspectiva do usuário e do Hemocentro[cite: 1, 2]. Ele destaca interações essenciais como o agendamento de doações, a consulta de rotas e o esclarecimento de dúvidas via Chatbot.
+> **Explicação:** Este diagrama ilustra as funcionalidades do sistema sob a perspectiva do usuário e do Hemocentro. Ele destaca interações essenciais como o agendamento de doações, a consulta de rotas e o esclarecimento de dúvidas via Chatbot.
 
 ---
 
@@ -47,7 +47,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 </p>
 
 > ** Diagrama de Atividade para o fluxo de agendamento**  
-> **Explicação:** Representa o passo a passo processual do agendamento de doação[cite: 1, 2]. O diagrama utiliza Raias (*Swimlanes*) para dividir as responsabilidades entre o Usuário, o Sistema do APP e o Sistema do Hemocentro, mostrando desde a entrada de dados até a confirmação final do agendamento.
+> **Explicação:** Representa o passo a passo processual do agendamento de doação. O diagrama utiliza Raias (*Swimlanes*) para dividir as responsabilidades entre o Usuário, o Sistema do APP e o Sistema do Hemocentro, mostrando desde a entrada de dados até a confirmação final do agendamento.
 
 ---
 
@@ -58,7 +58,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 </p>
 
 > ** Diagrama de Sequência para consulta no chatbot**  
-> **Explicação:** Este diagrama foca na ordem temporal das mensagens trocadas entre os objetos do sistema[cite: 1, 2]. Ele detalha como a interface do app comunica-se com o controlador do chatbot e com a Base de Conhecimento (regras da Colsan) para fornecer respostas precisas ao usuário, evidenciando o tempo de ativação de cada componente.
+> **Explicação:** Este diagrama foca na ordem temporal das mensagens trocadas entre os objetos do sistema. Ele detalha como a interface do app comunica-se com o controlador do chatbot e com a Base de Conhecimento (regras da Colsan) para fornecer respostas precisas ao usuário, evidenciando o tempo de ativação de cada componente.
 
 ---
 
@@ -143,4 +143,4 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 Projeto desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da UNISO:
 * **Ketilyn Biason** — *Product Owner (P.O.) & Desenvolvedora Front-end*
-* **Equipe de Desenvolvimento (UNISO):** Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio, Rafael V. Bruneti.
+* **Equipe de Desenvolvimento:** Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio, Rafael V. Bruneti.
