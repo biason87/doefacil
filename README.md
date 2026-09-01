@@ -35,7 +35,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/diagrama-caso-uso.png" width="85%" alt="Diagrama de Caso de Uso" />
 </p>
 
-> ** Diagrama de Caso de Uso do Sistema DoeFácil**  
+> **Diagrama de Caso de Uso do Sistema DoeFácil**  
 > **Explicação:** Este diagrama ilustra as funcionalidades do sistema sob a perspectiva do usuário e do Hemocentro. Ele destaca interações essenciais como o agendamento de doações, a consulta de rotas e o esclarecimento de dúvidas via Chatbot.
 
 ---
@@ -46,7 +46,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/diagrama-atividade.png" width="85%" alt="Diagrama de Atividade" />
 </p>
 
-> ** Diagrama de Atividade para o fluxo de agendamento**  
+> **Diagrama de Atividade para o fluxo de agendamento**  
 > **Explicação:** Representa o passo a passo processual do agendamento de doação. O diagrama utiliza Raias (*Swimlanes*) para dividir as responsabilidades entre o Usuário, o Sistema do APP e o Sistema do Hemocentro, mostrando desde a entrada de dados até a confirmação final do agendamento.
 
 ---
@@ -57,7 +57,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/diagrama-sequencia.png" width="85%" alt="Diagrama de Sequência" />
 </p>
 
-> ** Diagrama de Sequência para consulta no chatbot**  
+> **Diagrama de Sequência para consulta no chatbot**  
 > **Explicação:** Este diagrama foca na ordem temporal das mensagens trocadas entre os objetos do sistema. Ele detalha como a interface do app comunica-se com o controlador do chatbot e com a Base de Conhecimento (regras da Colsan) para fornecer respostas precisas ao usuário, evidenciando o tempo de ativação de cada componente.
 
 ---
@@ -71,7 +71,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/prototipo-esboco-home.png" width="50%" alt="Primeira ideia da tela inicial" />
 </p>
 
-> ** Primeira ideia da tela inicial**  
+> **Primeira ideia da tela inicial**  
 > **Legenda:** Criada para mostrar o esboço do que estaria na tela inicial do aplicativo no seu primeiro protótipo, contendo o mapa interativo, campanhas ativas e o período de doação do usuário.
 
 ---
