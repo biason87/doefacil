@@ -139,6 +139,14 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 ---
 
+## 📄 Documentação Completa
+
+Para consultar o embasamento teórico, metodologia detalhada, resultados das pesquisas de campo e validações técnicas do projeto, acesse o relatório oficial em PDF:
+
+📥 **[Visualizar Relatório Acadêmico do Projeto DoeFácil (PDF)](docs/Relatorio-Final-DoeFacil.pdf)**
+
+---
+
 ## 👥 Colaboradores & Créditos
 
 Projeto desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da UNISO:
