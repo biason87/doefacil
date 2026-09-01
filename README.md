@@ -81,14 +81,14 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/prototipo-login-figma.png" width="70%" alt="Ideia da tela de login" />
 </p>
 
-> ** Ideia da tela de login**  
+> **Ideia da tela de login**  
 > **Legenda:** Criada no Figma para saber como ficaria a tela e a tentativa de login feita pelo usuário.
 
 <p align="center">
   <img src="assets/prototipo-home-figma.png" width="70%" alt="Telas iniciais no Figma" />
 </p>
 
-> ** Telas iniciais**  
+> **Telas iniciais**  
 > **Legenda:** Criada no Figma com maior fidelidade para uma melhor visão da tela inicial do aplicativo, contendo o mapa da cidade e os alertas de estoque de sangue nos hemocentros próximos.
 
 ---
@@ -98,7 +98,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/prototipo-home-ia.png" width="50%" alt="Tela inicial feita com IA" />
 </p>
 
-> ** Tela inicial com ajuda da IA**  
+> **Tela inicial com ajuda da IA**  
 > **Legenda:** Criada pelo Google AI para ser o mais próximo da versão final do site já disponível para uso, mostrando a parte de emergências do aplicativo.
 
 ---
@@ -108,14 +108,14 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/prototipo-mapa-figma.png" width="75%" alt="Ideia do mapa interativo no Figma" />
 </p>
 
-> ** Ideia do mapa interativo**  
+> **Ideia do mapa interativo**  
 > **Legenda:** Criada no Figma para ser o conceito inicial do mapa interativo do aplicativo, contendo os pontos de doação e as campanhas ativas.
 
 <p align="center">
   <img src="assets/prototipo-mapa-ia.png" width="85%" alt="Mapa interativo feito com IA" />
 </p>
 
-> **Figura 14: Mapa interativo feito com ajuda da IA**  
+> **Mapa interativo feito com ajuda da IA**  
 > **Legenda:** Criada pelo Google AI para ser a versão refinada do mapa interativo, melhorando a interface dos pontos de doação e das campanhas.
 
 ---
@@ -125,7 +125,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
   <img src="assets/prototipo-agendamento-figma.png" width="50%" alt="Ideia da Tela de agendamento" />
 </p>
 
-> **Figura 15: Ideia da Tela de agendamento**  
+> **Ideia da Tela de agendamento**  
 > **Legenda:** Criada no Figma para ser a tela de agendamento de doação, onde o usuário escolheria o local desejado para doar e faria o agendamento.
 
 ---
