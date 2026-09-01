@@ -29,86 +29,86 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 ## 📊 Diagramas de Modelagem do Sistema
 
-### 3.2 Diagrama de Caso de Uso
+###  Diagrama de Caso de Uso
 
 <p align="center">
   <img src="assets/diagrama-caso-uso.png" width="85%" alt="Diagrama de Caso de Uso" />
 </p>
 
-> **Figura 1: Diagrama de Caso de Uso do Sistema DoeFácil**  
+> ** Diagrama de Caso de Uso do Sistema DoeFácil**  
 > **Explicação:** Este diagrama ilustra as funcionalidades do sistema sob a perspectiva do usuário e do Hemocentro[cite: 1, 2]. Ele destaca interações essenciais como o agendamento de doações, a consulta de rotas e o esclarecimento de dúvidas via Chatbot.
 
 ---
 
-### 3.3 Diagrama de Atividade
+###  Diagrama de Atividade
 
 <p align="center">
   <img src="assets/diagrama-atividade.png" width="85%" alt="Diagrama de Atividade" />
 </p>
 
-> **Figura 2: Diagrama de Atividade para o fluxo de agendamento**  
+> ** Diagrama de Atividade para o fluxo de agendamento**  
 > **Explicação:** Representa o passo a passo processual do agendamento de doação[cite: 1, 2]. O diagrama utiliza Raias (*Swimlanes*) para dividir as responsabilidades entre o Usuário, o Sistema do APP e o Sistema do Hemocentro, mostrando desde a entrada de dados até a confirmação final do agendamento.
 
 ---
 
-### 3.4 Diagrama de Sequência
+###  Diagrama de Sequência
 
 <p align="center">
   <img src="assets/diagrama-sequencia.png" width="85%" alt="Diagrama de Sequência" />
 </p>
 
-> **Figura 3: Diagrama de Sequência para consulta no chatbot**  
+> ** Diagrama de Sequência para consulta no chatbot**  
 > **Explicação:** Este diagrama foca na ordem temporal das mensagens trocadas entre os objetos do sistema[cite: 1, 2]. Ele detalha como a interface do app comunica-se com o controlador do chatbot e com a Base de Conhecimento (regras da Colsan) para fornecer respostas precisas ao usuário, evidenciando o tempo de ativação de cada componente.
 
 ---
 
 ## 🎨 Protótipos & Evolução de Interface (UX/UI)
 
-### 6.1 Protótipos
+###  Protótipos
 
-#### 1. Esboço Inicial da Tela Principal
+####  Esboço Inicial da Tela Principal
 <p align="center">
   <img src="assets/prototipo-esboco-home.png" width="50%" alt="Primeira ideia da tela inicial" />
 </p>
 
-> **Figura 9: Primeira ideia da tela inicial**  
+> ** Primeira ideia da tela inicial**  
 > **Legenda:** Criada para mostrar o esboço do que estaria na tela inicial do aplicativo no seu primeiro protótipo, contendo o mapa interativo, campanhas ativas e o período de doação do usuário.
 
 ---
 
-#### 2. Prototipagem do Fluxo de Autenticação e Interface Inicial (Figma)
+####  Prototipagem do Fluxo de Autenticação e Interface Inicial (Figma)
 <p align="center">
   <img src="assets/prototipo-login-figma.png" width="70%" alt="Ideia da tela de login" />
 </p>
 
-> **Figura 10: Ideia da tela de login**  
+> ** Ideia da tela de login**  
 > **Legenda:** Criada no Figma para saber como ficaria a tela e a tentativa de login feita pelo usuário.
 
 <p align="center">
   <img src="assets/prototipo-home-figma.png" width="70%" alt="Telas iniciais no Figma" />
 </p>
 
-> **Figura 11: Telas iniciais**  
+> ** Telas iniciais**  
 > **Legenda:** Criada no Figma com maior fidelidade para uma melhor visão da tela inicial do aplicativo, contendo o mapa da cidade e os alertas de estoque de sangue nos hemocentros próximos.
 
 ---
 
-#### 3. Tela Inicial Refinada com Auxílio de IA
+####  Tela Inicial Refinada com Auxílio de IA
 <p align="center">
   <img src="assets/prototipo-home-ia.png" width="50%" alt="Tela inicial feita com IA" />
 </p>
 
-> **Figura 12: Tela inicial com ajuda da IA**  
+> ** Tela inicial com ajuda da IA**  
 > **Legenda:** Criada pelo Google AI para ser o mais próximo da versão final do site já disponível para uso, mostrando a parte de emergências do aplicativo.
 
 ---
 
-#### 4. Evolução do Concept do Mapa Interativo
+####  Evolução do Concept do Mapa Interativo
 <p align="center">
   <img src="assets/prototipo-mapa-figma.png" width="75%" alt="Ideia do mapa interativo no Figma" />
 </p>
 
-> **Figura 13: Ideia do mapa interativo**  
+> ** Ideia do mapa interativo**  
 > **Legenda:** Criada no Figma para ser o conceito inicial do mapa interativo do aplicativo, contendo os pontos de doação e as campanhas ativas.
 
 <p align="center">
@@ -120,7 +120,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 ---
 
-#### 5. Tela de Agendamento
+####  Tela de Agendamento
 <p align="center">
   <img src="assets/prototipo-agendamento-figma.png" width="50%" alt="Ideia da Tela de agendamento" />
 </p>
