@@ -157,6 +157,8 @@ A aplicação abre em `http://localhost:5173`.
 > **Ideia da tela de login**  
 > **Legenda:** Criada no Figma para saber como ficaria a tela e a tentativa de login feita pelo usuário.
 
+---
+
 <p align="center">
   <img src="assets/prototipo-home-figma.png" width="70%" alt="Telas iniciais no Figma" />
 </p>
