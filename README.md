@@ -25,7 +25,14 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 🔗 **Acesse a aplicação no ar:** [doefacil-ecru.vercel.app](https://doefacil-ecru.vercel.app)
 
+## 🖥️ Demonstração
+
+| Tela Inicial | Mapa Interativo | Chatbot de Suporte |
+|:---:|:---:|:---:|
+| ![Tela inicial do DoeFácil](assets/screenshots/home.png) | ![Mapa interativo com hemocentros](assets/screenshots/mapa.png) | ![Chatbot respondendo dúvidas sobre doação](assets/screenshots/chatbot.png) |
+
 ---
+
 
 ## 📊 Diagramas de Modelagem do Sistema
 
