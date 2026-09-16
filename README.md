@@ -7,13 +7,31 @@
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Gemini API](https://img.shields.io/badge/Gemini_API-Google_AI_Studio-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com)
 
+
+## 📑 Sumário
+
+- [Visão Geral](#-visão-geral--dores-atacadas)
+- [Funcionalidades](#-funcionalidades)
+- [Demonstração](#️-demonstração)
+- [Arquitetura, Tecnologias & Segurança](#️-arquitetura-tecnologias--segurança)
+- [Como Rodar o Projeto](#-como-rodar-o-projeto-localmente)
+- [Diagramas de Modelagem](#-diagramas-de-modelagem-do-sistema)
+- [Protótipos & Evolução de Interface](#-protótipos--evolução-de-interface-uxui)
+- [Documentação Oficial](#-documentação-oficial-do-projeto)
+- [Colaboradores](#-colaboradores--créditos)
+- [Licença](#-licença)
+  
 ---
 
 ## 📌 Visão Geral & Dores Atacadas
 
-No Brasil, **apenas 1,4% da população é doadora regular de sangue**, mantendo os hemocentros constantemente à beira do desabastecimento. Através de pesquisas de campo com **74 respondentes** e do levantamento de dados clínicos junto ao parceiro **Colsan (Sorocaba)**, identificou-se que **48% dos potenciais doadores deixam de doar por desinformação, medo do procedimento ou entraves logísticos**.
+No Brasil, **apenas 1,4%[¹] da população é doadora regular de sangue**, mantendo os hemocentros constantemente à beira do desabastecimento. Através de pesquisas de campo com **74 respondentes** e do levantamento de dados clínicos junto ao parceiro **Colsan (Sorocaba)**, identificou-se que **48% dos potenciais doadores deixam de doar por desinformação, medo do procedimento ou entraves logísticos**.
+
+[¹] Fonte: Relatório Final do Projeto (ver [Documentação Oficial](#-documentação-oficial-do-projeto) mais abaixo).
 
 ### 🎯 Principais Dores Eliminadas pelo DoeFácil:
 * **Falta de Informação e Mitos:** O medo do processo e a dúvida sobre requisitos básicos (peso, idade, cirurgias recentes) afastam voluntários.
@@ -23,6 +41,15 @@ No Brasil, **apenas 1,4% da população é doadora regular de sangue**, mantendo
 
 O **DoeFácil** centraliza essas necessidades em uma única aplicação web acolhedora e inteligente, alinhando-se aos **Objetivos de Desenvolvimento Sustentável da ONU (ODS 3, 9 e 10)**.
 
+## ✅ Funcionalidades
+
+- 📅 Agendamento de doação em hemocentros parceiros
+- 🗺️ Geolocalização e mapa interativo dos pontos de doação
+- 🩸 Alertas de estoque crítico por tipo sanguíneo
+- 🤖 Chatbot com IA (Gemini API) para tirar dúvidas sobre o processo
+- 🔐 Autenticação via Google ou e-mail/senha (Firebase Authentication)
+- 📖 Histórico do doador com controle do intervalo mínimo entre doações
+
 🔗 **Acesse a aplicação no ar:** [doefacil-ecru.vercel.app](https://doefacil-ecru.vercel.app)
 
 ## 🖥️ Demonstração
@@ -30,6 +57,42 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 | Tela Inicial | Mapa Interativo | Chatbot de Suporte |
 |:---:|:---:|:---:|
 | ![Tela inicial do DoeFácil](assets/tela-inicial.png) | ![Mapa interativo com hemocentros](assets/mapa-interativo.png) | ![Chatbot respondendo dúvidas sobre doação](assets/chat-bot.png) |
+
+---
+
+## 🛠️ Arquitetura, Tecnologias & Segurança
+
+* **Frontend & UX:** React.js com TypeScript, Vite e Tailwind CSS para componentes modulares e responsivos.
+* **Inteligência Artificial:** Integração com a **Gemini API (Google AI Studio)** para respostas em tempo real no Chatbot.
+* **Backend & Autenticação:** Firebase (Cloud Firestore e Authentication via Google e E-mail/Senha).
+* **Segurança de API:** A chave da API foi configurada em ambiente restrito com variáveis de ambiente (`VITE_GEMINI_API_KEY`), garantindo a execução na **Vercel** sem exposição de segredos no repositório.
+
+---
+## 🚀 Como Rodar o Projeto Localmente
+
+**Pré-requisitos:** [Node.js](https://nodejs.org/) 18+, uma conta no [Firebase](https://firebase.google.com/) e uma chave de API do [Google AI Studio / Gemini](https://aistudio.google.com/).
+
+```bash
+git clone https://github.com/biason87/doefacil.git
+cd doefacil
+npm install
+cp .env.example .env
+```
+
+Preencha o `.env` com suas credenciais (nomes de variável exatos estão em `.env.example`):
+
+```env
+VITE_GEMINI_API_KEY=sua_chave_aqui
+VITE_FIREBASE_API_KEY=sua_chave_aqui
+VITE_FIREBASE_AUTH_DOMAIN=seu_dominio_aqui
+VITE_FIREBASE_PROJECT_ID=seu_project_id_aqui
+```
+
+```bash
+npm run dev
+```
+
+A aplicação abre em `http://localhost:5173`.
 
 ---
 
@@ -130,15 +193,6 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 ---
 
-## 🛠️ Arquitetura, Tecnologias & Segurança
-
-* **Frontend & UX:** React.js com TypeScript, Vite e Tailwind CSS para componentes modulares e responsivos.
-* **Inteligência Artificial:** Integração com a **Gemini API (Google AI Studio)** para respostas em tempo real no Chatbot.
-* **Backend & Autenticação:** Firebase (Cloud Firestore e Authentication via Google e E-mail/Senha).
-* **Segurança de API:** A chave da API foi configurada em ambiente restrito com variáveis de ambiente (`VITE_GEMINI_API_KEY`), garantindo a execução na **Vercel** sem exposição de segredos no repositório.
-
----
-
 ## 📄 Documentação Oficial do Projeto
 
 Para consultar o planejamento inicial, o embasamento teórico, a metodologia de extensão e as validações técnicas do **DoeFácil**, acesse os documentos oficiais do projeto em PDF:
@@ -156,3 +210,9 @@ Para consultar o planejamento inicial, o embasamento teórico, a metodologia de 
 Projeto desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da UNISO:
 * **Ketilyn Biason** — *Product Owner (P.O.) & Desenvolvedora Front-end*
 * **Equipe de Desenvolvimento:** Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio, Rafael V. Bruneti.
+
+---
+
+## 📜 Licença
+
+Todos os direitos reservados. Consulte o arquivo [LICENSE](LICENSE) — uso comercial ou redistribuição não são permitidos sem autorização da autora.
