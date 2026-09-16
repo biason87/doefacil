@@ -29,10 +29,9 @@
 
 ## 📌 Visão Geral & Dores Atacadas
 
-No Brasil, **apenas 1,4%[¹] da população é doadora regular de sangue**, mantendo os hemocentros constantemente à beira do desabastecimento. Através de pesquisas de campo com **74 respondentes** e do levantamento de dados clínicos junto ao parceiro **Colsan (Sorocaba)**, identificou-se que **48% dos potenciais doadores deixam de doar por desinformação, medo do procedimento ou entraves logísticos**.
+No Brasil, **apenas 1,4%[¹] da população é doadora regular de sangue**, mantendo os hemocentros constantemente à beira do desabastecimento. Através de pesquisas de campo com **74 respondentes** e do levantamento de dados clínicos junto ao parceiro **Colsan (Sorocaba)**, identificou-se que **48%[²] dos potenciais doadores deixam de doar por desinformação, medo do procedimento ou entraves logísticos**.
 
 > [!NOTE]
-
 > [¹] Fonte: Relatório Final do Projeto (ver [Documentação Oficial](#-documentação-oficial-do-projeto) mais abaixo).
 > [²] Fonte: pesquisa de campo realizada pela equipe com os 74 respondentes citados acima, documentada no mesmo Relatório Final.
 
