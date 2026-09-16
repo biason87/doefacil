@@ -33,6 +33,7 @@ No Brasil, **apenas 1,4%[¹] da população é doadora regular de sangue**, mant
 
 > [!NOTE]
 > [¹] Fonte: Relatório Final do Projeto (ver [Documentação Oficial](#-documentação-oficial-do-projeto) mais abaixo).
+> 
 > [²] Fonte: pesquisa de campo realizada pela equipe com os 74 respondentes citados acima, documentada no mesmo Relatório Final.
 
 ### 🎯 Principais Dores Eliminadas pelo DoeFácil:
