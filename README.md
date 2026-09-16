@@ -29,7 +29,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 | Tela Inicial | Mapa Interativo | Chatbot de Suporte |
 |:---:|:---:|:---:|
-| ![Tela inicial do DoeFácil](assets/screenshots/home.png) | ![Mapa interativo com hemocentros](assets/screenshots/mapa.png) | ![Chatbot respondendo dúvidas sobre doação](assets/screenshots/chatbot.png) |
+| ![Tela inicial do DoeFácil](assets/tela-inicial.png) | ![Mapa interativo com hemocentros](assets/mapa-interativo.png) | ![Chatbot respondendo dúvidas sobre doação](assets/chat-bot.png) |
 
 ---
 
