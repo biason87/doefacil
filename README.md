@@ -50,7 +50,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 - 🗺️ Geolocalização e mapa interativo dos pontos de doação
 - 🩸 Alertas de estoque crítico por tipo sanguíneo
 - 🤖 Chatbot com IA (Gemini API) para tirar dúvidas sobre o processo
-- 🔐 Autenticação via Google ou e-mail/senha (Firebase Authentication)
+- 🔐 Autenticação via Google (Firebase Authentication)
 - 📖 Histórico do doador com controle do intervalo mínimo entre doações
 
 🔗 **Acesse a aplicação no ar:** [doefacil-ecru.vercel.app](https://doefacil-ecru.vercel.app)
