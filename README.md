@@ -118,13 +118,6 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 > **Ideia do mapa interativo**  
 > **Legenda:** Criada no Figma para ser o conceito inicial do mapa interativo do aplicativo, contendo os pontos de doação e as campanhas ativas.
 
-<p align="center">
-  <img src="assets/prototipo-mapa-ia.png" width="85%" alt="Mapa interativo feito com IA" />
-</p>
-
-> **Mapa interativo feito com ajuda da IA**  
-> **Legenda:** Criada pelo Google AI para ser a versão refinada do mapa interativo, melhorando a interface dos pontos de doação e das campanhas.
-
 ---
 
 ####  Tela de Agendamento
