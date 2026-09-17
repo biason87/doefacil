@@ -17,6 +17,7 @@
 > [!IMPORTANT]
 > Este é um projeto acadêmico desenvolvido para fins de estudo e avaliação na UNISO. Embora a aplicação esteja publicada e funcional na Vercel, as campanhas, estoques e pontos de doação exibidos não representam dados reais ou ativos. Não utilize esta aplicação como referência para decisões reais sobre doação de sangue — para isso, procure diretamente um hemocentro ou o site oficial do Ministério da Saúde.
 
+---
 
 ## 📑 Sumário
 
