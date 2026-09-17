@@ -3,7 +3,7 @@
 > **Simplificando a jornada do doador para salvar vidas.**  
 > Projeto de Extensão Universitária & Projeto Integrador desenvolvido no curso de Análise e Desenvolvimento de Sistemas da **Universidade de Sorocaba (UNISO)**.
 
->[!IMPORTANT] Este é um projeto acadêmico desenvolvido para fins de estudo e avaliação na UNISO. Embora a aplicação esteja publicada e funcional na Vercel, as campanhas, estoques e pontos de doação exibidos não representam dados reais ou ativos. Não utilize esta aplicação como referência para decisões reais sobre doação de sangue — para isso, procure diretamente um hemocentro ou o site oficial do Ministério da Saúde.
+> [!IMPORTANT] Este é um projeto acadêmico desenvolvido para fins de estudo e avaliação na UNISO. Embora a aplicação esteja publicada e funcional na Vercel, as campanhas, estoques e pontos de doação exibidos não representam dados reais ou ativos. Não utilize esta aplicação como referência para decisões reais sobre doação de sangue — para isso, procure diretamente um hemocentro ou o site oficial do Ministério da Saúde.
 
 [![Deploy com Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://doefacil-ecru.vercel.app)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
