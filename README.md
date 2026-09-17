@@ -2,6 +2,7 @@
 
 > **Simplificando a jornada do doador para salvar vidas.**  
 > Projeto de Extensão Universitária & Projeto Integrador desenvolvido no curso de Análise e Desenvolvimento de Sistemas da **Universidade de Sorocaba (UNISO)**.
+> 
 > 1º semestre |2026
 
 [![Deploy com Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://doefacil-ecru.vercel.app)
