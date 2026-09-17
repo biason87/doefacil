@@ -112,7 +112,7 @@ A aplicação abre em `http://localhost:5173`.
 ###  Diagrama de Caso de Uso
 
 <p align="center">
-  <img src="assets/diagrama-caso-uso.png" width="85%" alt="Diagrama de Caso de Uso" />
+  <img src="assets/diagramas/diagrama-caso-uso.png" width="85%" alt="Diagrama de Caso de Uso" />
 </p>
 
 > **Diagrama de Caso de Uso do Sistema DoeFácil**  
@@ -123,7 +123,7 @@ A aplicação abre em `http://localhost:5173`.
 ###  Diagrama de Atividade
 
 <p align="center">
-  <img src="assets/diagrama-atividade.png" width="85%" alt="Diagrama de Atividade" />
+  <img src="assets/diagramas/diagrama-atividade.png" width="85%" alt="Diagrama de Atividade" />
 </p>
 
 > **Diagrama de Atividade para o fluxo de agendamento**  
@@ -134,7 +134,7 @@ A aplicação abre em `http://localhost:5173`.
 ###  Diagrama de Sequência
 
 <p align="center">
-  <img src="assets/diagrama-sequencia.png" width="85%" alt="Diagrama de Sequência" />
+  <img src="assets/diagramas/diagrama-sequencia.png" width="85%" alt="Diagrama de Sequência" />
 </p>
 
 > **Diagrama de Sequência para consulta no chatbot**  
@@ -148,7 +148,7 @@ A aplicação abre em `http://localhost:5173`.
 
 ####  Esboço Inicial da Tela Principal
 <p align="center">
-  <img src="assets/prototipo-esboco-home.png" width="50%" alt="Primeira ideia da tela inicial" />
+  <img src="assets/prototipos/prototipo-esboco-home.png" width="50%" alt="Primeira ideia da tela inicial" />
 </p>
 
 > **Primeira ideia da tela inicial**  
@@ -158,7 +158,7 @@ A aplicação abre em `http://localhost:5173`.
 
 ####  Prototipagem do Fluxo de Autenticação e Interface Inicial (Figma)
 <p align="center">
-  <img src="assets/prototipo-login-figma.png" width="70%" alt="Ideia da tela de login" />
+  <img src="assets/prototipos/prototipo-login-figma.png" width="70%" alt="Ideia da tela de login" />
 </p>
 
 > **Ideia da tela de login**  
@@ -167,7 +167,7 @@ A aplicação abre em `http://localhost:5173`.
 ---
 
 <p align="center">
-  <img src="assets/prototipo-home-figma.png" width="70%" alt="Telas iniciais no Figma" />
+  <img src="assets/prototipos/prototipo-home-figma.png" width="70%" alt="Telas iniciais no Figma" />
 </p>
 
 > **Telas iniciais**  
@@ -177,7 +177,7 @@ A aplicação abre em `http://localhost:5173`.
 
 ####  Tela Inicial Refinada com Auxílio de IA
 <p align="center">
-  <img src="assets/prototipo-home-ia.png" width="50%" alt="Tela inicial feita com IA" />
+  <img src="assets/prototipos/prototipo-home-ia.png" width="50%" alt="Tela inicial feita com IA" />
 </p>
 
 > **Tela inicial com ajuda da IA**  
@@ -187,7 +187,7 @@ A aplicação abre em `http://localhost:5173`.
 
 ####  Evolução do Concept do Mapa Interativo
 <p align="center">
-  <img src="assets/prototipo-mapa-figma.png" width="75%" alt="Ideia do mapa interativo no Figma" />
+  <img src="assets/prototipos/prototipo-mapa-figma.png" width="75%" alt="Ideia do mapa interativo no Figma" />
 </p>
 
 > **Ideia do mapa interativo**  
@@ -197,7 +197,7 @@ A aplicação abre em `http://localhost:5173`.
 
 ####  Tela de Agendamento
 <p align="center">
-  <img src="assets/prototipo-agendamento-figma.png" width="50%" alt="Ideia da Tela de agendamento" />
+  <img src="assets/prototipos/prototipo-agendamento-figma.png" width="50%" alt="Ideia da Tela de agendamento" />
 </p>
 
 > **Ideia da Tela de agendamento**  
