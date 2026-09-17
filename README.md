@@ -220,7 +220,7 @@ Para consultar o planejamento inicial, o embasamento teórico, a metodologia de 
 ## 👥 Colaboradores & Créditos
 
 Projeto desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da UNISO:
-> 1º semestre 2026
+> 1º semestre|2026
 * **Ketilyn Biason** — *Product Owner (P.O.) & Desenvolvedora Front-end*
 * **Equipe de Desenvolvimento:** Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio, Rafael V. Bruneti.
 
