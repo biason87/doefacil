@@ -2,7 +2,7 @@
 
 > **Simplificando a jornada do doador para salvar vidas.**  
 > Projeto de Extensão Universitária & Projeto Integrador desenvolvido no curso de Análise e Desenvolvimento de Sistemas da **Universidade de Sorocaba (UNISO)**.
-
+> 1º semestre |2026
 
 [![Deploy com Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://doefacil-ecru.vercel.app)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
@@ -220,7 +220,7 @@ Para consultar o planejamento inicial, o embasamento teórico, a metodologia de 
 ## 👥 Colaboradores & Créditos
 
 Projeto desenvolvido pelos alunos do curso de Análise e Desenvolvimento de Sistemas da UNISO:
-> 1º semestre |2026
+
 * **Ketilyn Biason** — *Product Owner (P.O.) & Desenvolvedora Front-end*
 * **Equipe de Desenvolvimento:** Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio, Rafael V. Bruneti.
 
