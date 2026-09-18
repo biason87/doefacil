@@ -55,12 +55,11 @@ export default function Home({ onNavigate }: HomeProps) {
             className="hidden md:block relative px-4"
           >
             <div className="relative">
-              <img 
-                src="regenerated_image_1777554981194.png" 
-                alt="Donation Hero" 
-                className="rounded-[40px] shadow-2xl h-[500px] w-full object-cover"
-                referrerPolicy="no-referrer"
-              />
+             <img 
+  src="/capa-site.jpeg" 
+  alt="Doador sorrindo após doação de sangue" 
+  className="rounded-[40px] shadow-2xl h-[500px] w-full object-cover"
+/>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-2xl animate-pulse border border-gray-50">
                 <Heart className="text-red-600 mb-2 fill-current" size={32} />
                 <p className="font-bold text-gray-900">12.5k</p>
