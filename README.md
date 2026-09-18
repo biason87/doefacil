@@ -79,6 +79,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 * **Segurança de API:** A chave da Gemini API foi configurada como variável de ambiente (VITE_GEMINI_API_KEY), mantida fora do repositório. Já a configuração do Firebase (identificação do projeto) segue o padrão da própria plataforma, que é pública por natureza — a proteção real de dados fica a cargo das regras do Firestore e dos domínios autorizados no console do Firebase.
 
 ---
+
 ## 🚀 Como Rodar o Projeto Localmente
 
 **Pré-requisitos:** [Node.js](https://nodejs.org/) 18+, uma conta no [Firebase](https://firebase.google.com/) e uma chave de API do [Google AI Studio / Gemini](https://aistudio.google.com/).
