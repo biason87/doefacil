@@ -221,7 +221,7 @@ Para consultar o planejamento inicial, o embasamento teórico, a metodologia de 
 
 ## 👥 Créditos
 
-**Desenvolvimento do site:** Ketilyn Biason, Product Owner e desenvolvedora individual do site (front-end e publicação), com apoio do Gemini a partir de protótipos e prompts próprios.
+**Desenvolvimento do site:** Ketilyn Biason, individualmente (front-end e publicação), com apoio do Gemini a partir de protótipos e prompts próprios.
 
 **Projeto Integrador (1º semestre):** pesquisa de campo, documentação, protótipos e diagramas que serviram de base ao site, feitos em grupo por Ketilyn Biason (P.O.), Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio e Rafael V. Bruneti.
 
