@@ -226,6 +226,7 @@ Para consultar o planejamento inicial, o embasamento teórico, a metodologia de 
 **Projeto Integrador (1º semestre):** pesquisa de campo, documentação, protótipos e diagramas que serviram de base ao site, feitos em grupo por Ketilyn Biason (P.O.), Jorge L. Zacarias, Maria C. Borges, Matheus Casaburi, Matheus O. Silverio e Rafael V. Bruneti.
 
 Projeto acadêmico do curso de Análise e Desenvolvimento de Sistemas da UNISO.
+
 ---
 
 ## 📜 Licença
