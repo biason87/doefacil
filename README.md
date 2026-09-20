@@ -205,7 +205,7 @@ A aplicação abre em `http://localhost:5173`.
 > **Legenda:** Criada no Figma para ser a tela de agendamento de doação, onde o usuário escolheria o local desejado para doar e faria o agendamento.
 
 > [!NOTE]
-> Não aplicada dentro do site ate o momento.
+> Não aplicada dentro do site até o momento.
 
 ---
 
