@@ -201,11 +201,11 @@ A aplicação abre em `http://localhost:5173`.
   <img src="assets/prototipos/prototipo-agendamento-figma.png" width="50%" alt="Ideia da Tela de agendamento" />
 </p>
 
-> [!NOTE]
-> Não aplicada dentro do site ate o momento.
-
 > **Ideia da Tela de agendamento**  
 > **Legenda:** Criada no Figma para ser a tela de agendamento de doação, onde o usuário escolheria o local desejado para doar e faria o agendamento.
+
+> [!NOTE]
+> Não aplicada dentro do site ate o momento.
 
 ---
 
