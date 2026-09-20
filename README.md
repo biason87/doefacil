@@ -73,7 +73,7 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 * **Frontend & UX:** React.js com TypeScript, Vite e Tailwind CSS para componentes modulares e responsivos.
 * **Inteligência Artificial:** Integração com a **Gemini API (Google AI Studio)** para respostas em tempo real no Chatbot.
-* **Backend & Autenticação:** Firebase (Cloud Firestore e Authentication via Google e E-mail/Senha).
+* **Backend & Autenticação:** Firebase (Cloud Firestore e Authentication via Google).
 * **Segurança de API:** A chave da Gemini API foi configurada como variável de ambiente (VITE_GEMINI_API_KEY), mantida fora do repositório. Já a configuração do Firebase (identificação do projeto) segue o padrão da própria plataforma, que é pública por natureza — a proteção real de dados fica a cargo das regras do Firestore e dos domínios autorizados no console do Firebase.
 
 ---
