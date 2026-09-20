@@ -53,7 +53,6 @@ O **DoeFácil** centraliza essas necessidades em uma única aplicação web acol
 
 ## ✅ Funcionalidades
 
-- 📅 Agendamento de doação em hemocentros parceiros
 - 🗺️ Geolocalização e mapa interativo dos pontos de doação
 - 🩸 Alertas de estoque crítico por tipo sanguíneo
 - 🤖 Chatbot com IA (Gemini API) para tirar dúvidas sobre o processo
@@ -205,7 +204,7 @@ A aplicação abre em `http://localhost:5173`.
 > **Legenda:** Criada no Figma para ser a tela de agendamento de doação, onde o usuário escolheria o local desejado para doar e faria o agendamento.
 
 > [!NOTE]
-> Não aplicada dentro do site até o momento.
+> Protótipo ainda não implementado no site publicado.
 
 ---
 
