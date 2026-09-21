@@ -44,19 +44,19 @@ service cloud.firestore {
     // Public collections (read-only for users, managed by admins - or for now just public read)
     match /urgent_alerts/{alertId} {
       allow read: if true;
-      allow create: if true; // Allow seeding from client
+     allow create: if false;
       allow update, delete: if false; 
     }
 
     match /campaigns/{campaignId} {
       allow read: if true;
-      allow create: if true; // Allow seeding from client
+     allow create: if false;
       allow update, delete: if false;
     }
 
     match /faqs/{faqId} {
       allow read: if true;
-      allow create: if true; // Allow seeding from client
+     allow create: if false;
       allow update, delete: if false;
     }
   }
