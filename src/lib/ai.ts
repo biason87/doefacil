@@ -31,7 +31,7 @@ function getAI() {
 
 export async function askDoeFacil(prompt: string) {
   const ai = getAI();
-  if (!ai) return "Desculpe, o serviço de IA não está configurado. Como posso ajudar com as informações básicas?";
+ if (!ai) return "No momento, respondo apenas às perguntas sugeridas abaixo. Em breve terei mais recursos! 😊";
 
   try {
     const response = await ai.models.generateContent({
